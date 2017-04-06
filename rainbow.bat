@@ -15,5 +15,5 @@
 goto loop
 
 :wait
-	ping 1.1.1.1 -n 1 -w 300 > nul
+	ping 1.1.1.1 -n 1 -w 300 > nul	&:: pause for 300 ms
 goto :EOF
